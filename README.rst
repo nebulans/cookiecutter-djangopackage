@@ -8,7 +8,10 @@ A cookiecutter_ template for creating reusable Django packages (installable apps
 best practices (especially for ``setup.py``), so you end up cutting and pasting hacky, poorly understood, 
 often legacy code from one project to the other. This template, inspired by `cookiecutter-pypackage`_,
 is designed to allow Django developers the ability to break free from cargo-cult configuration and follow
-a common pattern dictated by the experts and maintained here. 
+a common pattern dictated by the experts and maintained here.
+
+This clone of the pydanny package provides a better Travis config to test against common supported python
+and django versions.
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 .. _cookiecutter-pypackage: https://github.com/audreyr/cookiecutter-pypackage
